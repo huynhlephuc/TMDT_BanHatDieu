@@ -1,0 +1,77 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2021-05-06 03:04:59
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.7.3.1
+WORDPRESS:	5.2.10
+PHP INFO:	7.3.25 | SAPI: apache2handler
+SERVER:		Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.3.25 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 5000M (512M default) 
+RUN TYPE: Manual
+MEMORY STACK: 6MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 500)
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:31 | filtered:0 | create:31 
+FILTERED: [] 
+SQL CREATED: 20210506_hatdieucaocap_78b82541576620df9389_20210506030433_database.sql 
+SQL FILE SIZE: 591.44KB 
+SQL FILE TIME: 2021-05-06 03:04:59 
+SQL RUNTIME: 0.454 sec. 
+MEMORY STACK: 6MB 
+
+******************************************************************************** 
+ARCHIVE Mode:ZipArchive Multi-Threaded 
+******************************************************************************** 
+ARCHIVE DIR:  C:/xampp/htdocs/tmdt1 
+ARCHIVE FILE: 20210506_hatdieucaocap_78b82541576620df9389_20210506030433_archive.zip 
+COMPRESSION: *ON* 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+FILES:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	122.42MB 
+STATS:	Dirs 799 | Files 6,596 | Total 7,395 
+SQL ADDED: 20210506_hatdieucaocap_78b82541576620df9389_20210506030433_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7395
+    [filename] => C:\xampp\htdocs\tmdt1\wp-content\backups-dup-pro\tmp\20210506_hatdieucaocap_78b82541576620df9389_20210506030433_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSED SIZE: 39.96MB 
+ARCHIVE RUNTIME: 3.911 sec. 
+MEMORY STACK: 26MB 
+Installer files added to archive 
+
+******************************************************************************** 
+STORAGE: 
+******************************************************************************** 
+LOCAL: Default, C:/xampp/htdocs/tmdt1/wp-content/backups-dup-pro 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL FILE: 591.44KB 
+INSTALLER FILE: 29.08KB 
+ARCHIVE FILE: 40.85MB  
+EXPECTED FILE/DIRECTORY COUNT: 7,395 
+ACTUAL FILE/DIRECTORY COUNT: 7,395 
+ARCHIVE CONSISTENCY TEST: Pass 
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 26.427 sec.
+PEAK PHP MEMORY USED: 16MB
+DONE PROCESSING => 20210506_hatdieucaocap 2021-05-06 03:05:25
+ 

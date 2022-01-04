@@ -1,0 +1,210 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:31:20
+* VERSION: 3.7.3.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.3.25 | SAPI: apache2handler
+PHP MEMORY:	5000M | SUHOSIN: disabled
+SERVER:		Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.3.25
+DOC ROOT:	C:/xampp/htdocs/tmdt1
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/tmdt1/dup-installer/main.installer.php?archive=C%3A%2Fxampp%2Fhtdocs%2Ftmdt1%2F20190521_hatdieucaocap_c6fb239374fd14a32473_20190521030730_archive.zip&bootloader=installer.php&
+SAFE MODE :	0
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190521_hatdieucaocap_c6fb239374fd14a32473_20190521030730_archive.zip
+SIZE:	41.03MB
+
+>>> Starting ZipArchive Unzip
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7480
+    [filename] => C:\xampp\htdocs\tmdt1\20190521_hatdieucaocap_c6fb239374fd14a32473_20190521030730_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2021-05-06 02:31:49
+<<< ZipArchive Unzip Complete: true
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 02:31:49 - RUNTIME: 28.8777 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 02:33:08
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+
+WARNING: The database script is '1.23MB' in size.  The PHP memory allocation is set
+at '5000M'.  There is a high possibility that the installer script will fail with
+a memory allocation error when trying to load the database.sql file.  It is
+recommended to increase the 'memory_limit' setting in the php.ini config file.
+see: https://snapcreek.com/duplicator/docs/faqs-tech#faq-trouble-056-q 
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.17 -- Build Server: 10.1.38
+FILE SIZE:	database.sql (1.23MB) - installer-data.sql (1.23MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+NEW SQL FILE:	[C:/xampp/htdocs/tmdt1/installer-data.sql]
+COLLATE FB:	Off
+DB CHUNKING:	disabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1686
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_pro_entities: (5)
+wp_duplicator_pro_packages: (0)
+wp_links: (0)
+wp_options: (274)
+wp_postmeta: (728)
+wp_posts: (302)
+wp_term_relationships: (37)
+wp_term_taxonomy: (30)
+wp_termmeta: (29)
+wp_terms: (30)
+wp_usermeta: (31)
+wp_users: (1)
+wp_wc_download_log: (0)
+wp_wc_product_meta_lookup: (11)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (4)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (2)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '166' cache/transient rows
+
+INSERT DATA RUNTIME: 7.3446 sec.
+STEP-2 COMPLETE @ 02:33:16 - RUNTIME: 7.4842 sec.
+
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:33:21
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8mb4
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+Subsite id=-1
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_pro_entities~ (5)
+wp_duplicator_pro_packages^ (0)
+wp_links^ (0)
+wp_options~ (274)
+wp_postmeta~ (728)
+wp_posts~ (302)
+wp_term_relationships~ (37)
+wp_term_taxonomy~ (30)
+wp_termmeta~ (29)
+wp_terms~ (30)
+wp_usermeta~ (31)
+wp_users~ (1)
+wp_wc_download_log^ (0)
+wp_wc_product_meta_lookup~ (11)
+wp_wc_webhooks^ (0)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies^ (0)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_log^ (0)
+wp_woocommerce_order_itemmeta^ (0)
+wp_woocommerce_order_items^ (0)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+wp_woocommerce_sessions~ (4)
+wp_woocommerce_shipping_zone_locations~ (1)
+wp_woocommerce_shipping_zone_methods~ (2)
+wp_woocommerce_shipping_zones~ (1)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+Partial off
+--------------------------------------
+Search1:	'/home/mualatan/public_html' 
+Change1:	'C:/xampp/htdocs/tmdt1' 
+Search2:	'\/home\/mualatan\/public_html' 
+Change2:	'C:\/xampp\/htdocs\/tmdt1' 
+Search3:	'%2Fhome%2Fmualatan%2Fpublic_html%2F' 
+Change3:	'C%3A%2Fxampp%2Fhtdocs%2Ftmdt1%2F' 
+Search4:	'\home\mualatan\public_html' 
+Change4:	'C:/xampp/htdocs/tmdt1' 
+Search5:	'//mualatang.com' 
+Change5:	'//localhost:81/tmdt1' 
+Search6:	'\/\/mualatang.com' 
+Change6:	'\/\/localhost:81\/tmdt1' 
+Search7:	'%2F%2Fmualatang.com' 
+Change7:	'%2F%2Flocalhost%3A81%2Ftmdt1' 
+SCANNED:	Tables:31 	|	 Rows:1486 	|	 Cells:11795 
+UPDATED:	Tables:2 	|	 Rows:306 	|	 Cells:320 
+ERRORS:		0 
+RUNTIME:	1.014700 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - 'C:/xampp/htdocs/tmdt1/wp-config-arc.txt'
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Removed '0' schedule storage items
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 02:33:22 - RUNTIME: 1.0933 sec. 
+
+
